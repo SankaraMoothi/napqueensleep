@@ -1,0 +1,57 @@
+.table {
+  .tableTop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+
+    padding: 10px;
+    .cat {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+
+      .button {
+        padding: 6px 15px;
+        border: 1px solid gray;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        background-color: white;
+      }
+      .downarrow {
+        padding: 6px;
+
+        border: 1px solid gray;
+      }
+    }
+  }
+  .name {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .link {
+    text-decoration: underline;
+    color: rgb(11, 91, 196);
+  }
+  .infoBoxs {
+    display: flex;
+    gap: 4px;
+    .box {
+      padding: 4px;
+      background-color: rgb(70, 219, 249);
+    }
+    .box:first-child {
+      background-color: gray;
+      color: white;
+    }
+    .box:nth-child(2) {
+      background-color: lightgrey;
+      color: white;
+    }
+  }
+  .report {
+    color: rgb(11, 91, 196);
+  }
+}

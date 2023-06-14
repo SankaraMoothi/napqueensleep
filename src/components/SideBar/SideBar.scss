@@ -1,0 +1,35 @@
+.sidebar {
+  width: 13% !important;
+  border-right: 2px solid gray;
+  background-color: white;
+  .elements:nth-child(5) {
+    border-left: 4px solid red;
+    color: #7b4c9e;
+  }
+  .sort {
+    margin-left: 15px;
+  }
+  .elements {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    font-weight: 600;
+
+    .icon {
+      padding: 15px;
+      background-color: lightgray;
+      border-radius: 5px;
+    }
+    .active {
+      padding: 5px;
+      background-color: #7b4c9e;
+    }
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    display: none;
+  }
+}

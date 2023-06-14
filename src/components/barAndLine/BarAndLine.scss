@@ -1,0 +1,56 @@
+.ChartContainer {
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: white;
+  .row {
+    display: flex;
+    gap: 20px;
+    background-color: lightgray;
+    .col-4 {
+      border: 2px solid lightgray;
+      padding: 10px;
+      border-radius: 5px;
+      background-color: white;
+    }
+    .chartHead {
+      margin-bottom: 20px;
+      .upper {
+        display: flex;
+        justify-content: space-between;
+        .title {
+          font-size: 16px;
+          font-weight: 600;
+        }
+        .option {
+          display: flex;
+          align-items: center;
+
+          .icon {
+            color: gray;
+          }
+        }
+      }
+      .lower {
+        margin-top: 10px;
+        border-top: 2px solid lightgray;
+        border-bottom: 2px solid lightgray;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: space-around;
+        .options {
+          .detail {
+            display: flex;
+            align-items: center;
+            gap: 2px;
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  .ChartContainer {
+    margin-left: 0;
+  }
+}
